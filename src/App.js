@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
-import MyImage from './components/LazyLoadImage/LazyLoadImage';
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import './components/Toolbar/Toolbar.css';
 
 class App extends Component {
   state = {
@@ -33,22 +36,28 @@ class App extends Component {
         {backdrop}
         <main style={{marginTop: '64px'}}>
           <p>This is a page content.</p>
-          <img
+          <div className="nav-spacer-pics"></div>
+          <LazyLoadImage
             className="lazy img-responsive"
             alt="SewingMachinesPlus.com"
             title="SewingMachinesPlus.com"
+            effect="blur"
             src="//cdn.sewingmachinesplus.com/AE/images/logo.png"
           />
-          <img
+          <div className="nav-spacer-pics"></div>
+          <LazyLoadImage
             className="lazy img-responsive"
             alt="SewingMachinesPlus.com"
             title="SewingMachinesPlus.com"
+            effect="blur"
             src="https://cdn.sewingmachinesplus.com/media/events/2018-cybermonday/cyber-homepage-banner.jpg"
           />
-          <img
+          <div className="nav-spacer-pics"></div>
+          <LazyLoadImage
             className="lazy img-responsive"
             alt="SewingMachinesPlus.com"
             title="SewingMachinesPlus.com"
+            effect="blur"
             src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/holiday-rotational-banner.jpg"
           />
         </main>

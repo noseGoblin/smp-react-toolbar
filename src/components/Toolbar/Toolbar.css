@@ -30,6 +30,13 @@
   flex: 1;
 }
 
+.nav-spacer-pics {
+  padding: 5px 0;
+}
+.lazy {
+  max-width: 100%;
+}
+
 .toolbar__navigation-items ul {
   list-style: none;
   margin: 0;
