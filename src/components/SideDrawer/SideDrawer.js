@@ -18,22 +18,22 @@ const sideDrawer = props => {
 //    <nav className={drawerClasses.join(' ')}>
    <nav className={drawerClasses}>
       <ul>
-        <li><a href="/">New Products</a></li>
-        <li><a href="/">Sale Items - Limited Time!</a></li>
-        <li><a href="/">Clearance Bin</a></li>
-        <li><a href="/">Machines</a></li>
-        <li><a href="/">Furniture</a></li>
-        <li><a href="/">Quilting Robotics</a></li>
-        <li><a href="/">Embroidery Software</a></li>
-        <li><a href="/">Thread</a></li>
-        <li><a href="/">Presser Feet</a></li>
-        <li><a href="/">Embroidery Hoops</a></li>
-        <li><a href="/">Trolleys, Totes, &amp; Cases</a></li>
-        <li><a href="/">Bobbins &amp; Bobbin Cases</a></li>
-        <li><a href="/">Needles</a></li>
-        <li><a href="/">Foot Controls &amp; Cords</a></li>
-        <li><a href="/">Other Categories</a></li>
-        <li><a href="/">Shop By Brand</a></li>
+        <a href="/"><li>New Products</li></a>
+        <a href="/"><li>Sale Items - Limited Time!</li></a>
+        <a href="/"><li>Clearance Bin</li></a>
+        <a href="/"><li>Machines</li></a>
+        <a href="/"><li>Furniture</li></a>
+        <a href="/"><li>Quilting Robotics</li></a>
+        <a href="/"><li>Embroidery Software</li></a>
+        <a href="/"><li>Thread</li></a>
+        <a href="/"><li>Presser Feet</li></a>
+        <a href="/"><li>Embroidery Hoops</li></a>
+        <a href="/"><li>Trolleys, Totes, &amp; Cases</li></a>
+        <a href="/"><li>Bobbins &amp; Bobbin Cases</li></a>
+        <a href="/"><li>Needles</li></a>
+        <a href="/"><li>Foot Controls &amp; Cords</li></a>
+        <a href="/"><li>Other Categories</li></a>
+        <a href="/"><li>Shop By Brand</li></a>
       </ul>
     </nav>
   );
